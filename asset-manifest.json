@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/VivekSharma/static/css/main.31d6cfe0.css",
-    "main.js": "/VivekSharma/static/js/main.61d5ddb5.js",
-    "static/js/787.8dd2b5b2.chunk.js": "/VivekSharma/static/js/787.8dd2b5b2.chunk.js",
-    "index.html": "/VivekSharma/index.html",
-    "main.61d5ddb5.js.map": "/VivekSharma/static/js/main.61d5ddb5.js.map",
-    "787.8dd2b5b2.chunk.js.map": "/VivekSharma/static/js/787.8dd2b5b2.chunk.js.map"
+    "main.css": "/static/css/main.31d6cfe0.css",
+    "main.js": "/static/js/main.e14dca5d.js",
+    "static/js/787.8dd2b5b2.chunk.js": "/static/js/787.8dd2b5b2.chunk.js",
+    "index.html": "/index.html",
+    "main.e14dca5d.js.map": "/static/js/main.e14dca5d.js.map",
+    "787.8dd2b5b2.chunk.js.map": "/static/js/787.8dd2b5b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.61d5ddb5.js"
+    "static/js/main.e14dca5d.js"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VivekSharma/static/css/main.31d6cfe0.css",
+    "main.js": "/VivekSharma/static/js/main.61d5ddb5.js",
+    "static/js/787.8dd2b5b2.chunk.js": "/VivekSharma/static/js/787.8dd2b5b2.chunk.js",
+    "index.html": "/VivekSharma/index.html",
+    "main.61d5ddb5.js.map": "/VivekSharma/static/js/main.61d5ddb5.js.map",
+    "787.8dd2b5b2.chunk.js.map": "/VivekSharma/static/js/787.8dd2b5b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.61d5ddb5.js"
+  ]
+}

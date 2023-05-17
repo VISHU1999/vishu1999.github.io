@@ -9,7 +9,7 @@ class Contact extends Component {
     const message = this.props.data.contactmessage;
     const networks = this.props.data.social.map(function (network) {
       return (
-        <h2>
+        <h2 key={network.name}>
           <a href={network.url}>
             {network.name} <i className={network.className}></i>
           </a>

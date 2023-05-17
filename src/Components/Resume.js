@@ -31,7 +31,7 @@ class Resume extends Component {
 
     const certifications = this.props.data.certifications.map((item) => {
       return (
-          <div className="certificate">
+          <div className="certificate" key={item.name}>
             <h4><a href={item.url}> {item.name}</a></h4>
           </div>
         );

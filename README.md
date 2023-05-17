@@ -1,14 +1,7 @@
 # React 
 
-Personal Portfolio 
-line DEMO(https://vishu1999.github.io/viveksharma/)
+# Personal Portfolio.
+live  [DEMO](https://vishu1999.github.io/viveksharma/)
 
-```shell
-npm i
-npm start
-```
-
-### 3. Build
-```shell
-npm run build
-```
+# Hi guys I made my poftfolio whiling learning react.
+# Please checkout and let me know your feedback.

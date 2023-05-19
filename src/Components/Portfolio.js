@@ -8,7 +8,7 @@ class Portfolio extends Component {
     if (!this.props.data) return null;
 
     const projects = this.props.data.projects.map(function (project) {
-      let projectImage = "viveksharma/images/portfolio/" + project.image;
+      let projectImage = "images/portfolio/" + project.image;
 
       return (
         <div key={id++} className="columns portfolio-item">

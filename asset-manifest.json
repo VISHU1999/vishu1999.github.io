@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/viveksharma/static/css/main.31d6cfe0.css",
-    "main.js": "/viveksharma/static/js/main.ecb94028.js",
+    "main.js": "/viveksharma/static/js/main.ad367ba1.js",
     "static/js/787.8dd2b5b2.chunk.js": "/viveksharma/static/js/787.8dd2b5b2.chunk.js",
     "index.html": "/viveksharma/index.html",
-    "main.ecb94028.js.map": "/viveksharma/static/js/main.ecb94028.js.map",
+    "main.ad367ba1.js.map": "/viveksharma/static/js/main.ad367ba1.js.map",
     "787.8dd2b5b2.chunk.js.map": "/viveksharma/static/js/787.8dd2b5b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.ecb94028.js"
+    "static/js/main.ad367ba1.js"
   ]
 }

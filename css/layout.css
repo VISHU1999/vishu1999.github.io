@@ -456,11 +456,36 @@ ul#nav li.current a { color: #fe6928; }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .item-wrap {
-   background: #fff;
+#portfolio-wrapper .category {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #fff;
+   color: rgba(0, 0, 0, 0.8);
+   padding: 5px 10px;
+   font-size: 12px;
+   border-radius: 5px;
+   opacity: 0;
+   transition: opacity 0.3s ease, visibility 0.3s ease;
+ }
+ 
+ #portfolio-wrapper .project-hide:hover .category {
+   opacity: 1;
+   visibility: visible;
+ }
+ 
+.portfolio-item .item-wrap .image-container {
+   width: 200px;
+   height: 200px;
    overflow: hidden;
-   position: relative;
-
+}
+.portfolio-item .item-wrap .image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio-item .item-wrap {
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;

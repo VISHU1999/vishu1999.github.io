@@ -183,6 +183,12 @@
         "url":"https://github.com/VISHU1999/django-postgres-with-docker-"
       },
       {
+        "title":"Swagger+DRF",
+        "category":"Swagger integration with DRF in docker",
+        "image":"04.png",
+        "url":"https://github.com/VISHU1999/DRF-with-swagger-example"
+      },
+      {
         "title":"Coming Soon",
         "category":"Some Django+vue project coming Soon",
         "image":"03.png",

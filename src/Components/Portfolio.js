@@ -13,8 +13,13 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
+            <div className="image-container">
             <Zmage alt={project.title} src={projectImage}  />
+            </div>
             <div style={{ textAlign: "center" }}><a href={project.url}>{project.title}</a></div>
+            <div className="project-hide">
+              <span className="category">{project.category}</span>
+            </div>
           </div>
         </div>
       );

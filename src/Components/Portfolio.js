@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import Zmage from "react-zmage";
-import Fade from "react-reveal";
+import React, { Component } from 'react';
+import Zmage from 'react-zmage';
+import Fade from 'react-reveal';
 
 let id = 0;
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (project) {
-      let projectImage = "images/portfolio/" + project.image;
+    const projects = this.props.data.projects.map((project) => {
+      const projectImage = `images/portfolio/${project.image}`;
 
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
             <div className="image-container">
-            <Zmage alt={project.title} src={projectImage}  />
+              <Zmage alt={project.title} src={projectImage} />
             </div>
-            <div style={{ textAlign: "center" }}><a href={project.url}>{project.title}</a></div>
+            <div style={{ textAlign: 'center' }}><a href={project.url}>{project.title}</a></div>
             <div className="project-hide">
               <span className="category">{project.category}</span>
             </div>

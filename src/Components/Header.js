@@ -1,20 +1,19 @@
-import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
-import Zmage from "react-zmage";
-
+import React, { Component } from 'react';
+import ParticlesBg from 'particles-bg';
+import Fade from 'react-reveal';
+import Zmage from 'react-zmage';
 
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const proFilePic = "images/" + this.props.data.image
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+    const proFilePic = `images/${this.props.data.image}`;
+    const { name } = this.props.data;
+    const { description } = this.props.data;
     return (
       <header id="home">
-        
-        <ParticlesBg type="lines" color="black" num={3000} bg={true} />
+
+        <ParticlesBg type="lines" color="black" num={3000} bg />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -63,9 +62,12 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>
+                {description}
+                .
+              </h3>
             </Fade>
-              <div>
+            <div>
               <Zmage className="profile-pic" alt="Vivek pic" src={proFilePic} />
             </div>
           </div>
@@ -73,7 +75,7 @@ class Header extends Component {
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+            <i className="icon-down-circle" />
           </a>
         </p>
       </header>

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import Fade from "react-reveal";
+import React, { Component } from 'react';
+import Fade from 'react-reveal';
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
-    const bio = this.props.data.bio;
+    const { bio } = this.props.data;
     const resumeDownload = this.props.data.resumedownload;
 
     return (
@@ -20,14 +20,23 @@ class About extends Component {
                   <h4>{bio.line2}</h4>
                 </div>
               </Fade>
+              <div className="download">
+                <p>
+                  <a href={resumeDownload} className="button">
+                    <i className="fa fa-download" />
+                    Download Resume
+                  </a>
+                </p>
+              </div>
             </div>
-            <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div>
+          </div>
+          <div className="columns sidebar">
+            <h2>New Blog Post</h2>
+            <p>
+              Check out my latest blog on
+              <span>Facebook page comments watcher using Autonomous Agent</span>
+            </p>
+            <a className="m-story blog" href="https://medium.com/@viveksharma4318/facebook-page-comments-watcher-using-autonomous-agent-aa89f12f5510">Creating an AI-based Facebook Comment Moderator using Fetch.ai’s uAgents</a>
           </div>
         </Fade>
       </section>

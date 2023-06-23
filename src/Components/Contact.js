@@ -1,21 +1,21 @@
-import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import React, { Component } from 'react';
+import { Fade, Slide } from 'react-reveal';
 
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
-    const city = this.props.data.address.city;
-    const phone = this.props.data.phone;
+    const { city } = this.props.data.address;
+    const { phone } = this.props.data;
     const message = this.props.data.contactmessage;
-    const networks = this.props.data.social.map(function (network) {
-      return (
-        <h2 key={network.name}>
-          <a href={network.url}>
-            {network.name} <i className={network.className}></i>
-          </a>
-        </h2>
-      );
-    });
+    const networks = this.props.data.social.map((network) => (
+      <h2 key={network.name}>
+        <a href={network.url}>
+          {network.name}
+          {' '}
+          <i className={network.className} />
+        </a>
+      </h2>
+    ));
 
     return (
       <section id="contact">
@@ -32,19 +32,22 @@ class Contact extends Component {
 
         <div className="row">
           <Slide left duration={1000}>
-          <div className="columns">
-            <h4>Email: viveksharma4318@gmail.com</h4>
-            {networks}
-        </div>
-            
+            <div className="columns">
+              <h4>Email: viveksharma4318@gmail.com</h4>
+              {networks}
+            </div>
+
           </Slide>
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4> Place and Phone</h4>
-                <h2>{phone}</h2> 
-                <h2>Place: {city}</h2>
+                <h2>{phone}</h2>
+                <h2>
+                  Place:
+                  {city}
+                </h2>
               </div>
             </aside>
           </Slide>

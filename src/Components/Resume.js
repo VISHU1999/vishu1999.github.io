@@ -1,61 +1,64 @@
-import React, { Component } from "react";
-import Slide from "react-reveal";
+import React, { Component } from 'react';
+import Slide from 'react-reveal';
 
 class Resume extends Component {
   getRandomColor() {
-    return "#3318a2"
+    return '#3318a2';
   }
 
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function (education) {
-      return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
-        </div>
-      );
-    });
+    const { skillmessage } = this.props.data;
+    const education = this.props.data.education.map((education) => (
+      <div key={education.school}>
+        <h3>{education.school}</h3>
+        <p className="info">
+          {education.degree}
+          {' '}
+          <span>&bull;</span>
+          <em className="date">{education.graduated}</em>
+        </p>
+        <p>{education.description}</p>
+      </div>
+    ));
 
-    const certifications = this.props.data.certifications.map((item) => {
-      return (
-          <div className="certificate" key={item.name}>
-            <h4><a href={item.url}> {item.name}</a></h4>
-          </div>
-        );
-    })
+    const certifications = this.props.data.certifications.map((item) => (
+      <div className="certificate" key={item.name}>
+        <h4>
+          <a href={item.url}>
+            {' '}
+            {item.name}
+          </a>
+        </h4>
+      </div>
+    ));
 
-    const work = this.props.data.work.map(function (work) {
-      return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-            {work && work.positions.map((position) => (
-            <div key={position.title}>
+    const work = this.props.data.work.map((work) => (
+      <div key={work.company}>
+        <h3>{work.company}</h3>
+        {work && work.positions.map((position) => (
+          <div key={position.title}>
             <p className="info">
               <span className="position-title">{position.title}</span>
-              <span>&bull;</span> <em className="date">{position.years}</em>
+              <span>&bull;</span>
+              {' '}
+              <em className="date">{position.years}</em>
             </p>
             <p>{position.description}</p>
-        </div>
-          ))}
-        </div>
-      );
-    });
+          </div>
+        ))}
+      </div>
+    ));
 
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
+      const className = `bar-expand ${skills.name.toLowerCase()}`;
       const width = skills.level;
 
       return (
         <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
+          <span style={{ width, backgroundColor }} className={className} />
           <em>{skills.name}</em>
         </li>
       );
@@ -102,7 +105,6 @@ class Resume extends Component {
             <div className="nine columns main-col">{certifications}</div>
           </div>
         </Slide>
-
 
         <Slide left duration={1300}>
           <div className="row skill">

@@ -209,16 +209,11 @@ ul#nav li.current a { color: #fe6928; }
    margin: 0 auto;
    width: 100%;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
-#about .contact-details { width: 41.66667%; }
+
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
+   text-align: -webkit-right;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
@@ -232,6 +227,23 @@ ul#nav li.current a { color: #fe6928; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+#about .row {
+   width: 94%;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+#about .sidebar{
+   max-width: 400px;
+   margin: 65px;
+   padding: 20px;
+   border-radius: 6px;
+   left: 0px;
+   box-shadow:
+   0 0 5px 10px #fff, /* inner white */
+   0 0 15px 20px #f0f, /* middle magenta */
+   0 0 10px 30px #0ff; /* outer cyan */
 }
 
 

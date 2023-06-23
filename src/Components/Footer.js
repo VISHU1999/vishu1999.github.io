@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Fade from "react-reveal";
+import React, { Component } from 'react';
+import Fade from 'react-reveal';
 
 class Footer extends Component {
   render() {
@@ -12,7 +12,7 @@ class Footer extends Component {
             <div className="twelve columns">
               <ul className="copyright">
                 <h4>
-                "Believe in trust, for it is one of the most valuable assets in the world"
+                  "Believe in trust, for it is one of the most valuable assets in the world"
                 </h4>
               </ul>
             </div>
@@ -20,7 +20,7 @@ class Footer extends Component {
 
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open"></i>
+              <i className="icon-up-open" />
             </a>
           </div>
         </div>

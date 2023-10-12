@@ -824,7 +824,6 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
@@ -884,27 +883,25 @@ call-to-action .button {
    color: #ebeeee;
 }
 
+/* background: -webkit-linear-gradient(78deg,#e19223,#00ff95 60%); */
+/* -webkit-background-clip: text; */
+/* -webkit-text-fill-color: transparent; */
 #contact h4 {
-   font: 20px/24px 'opensans-bold', sans-serif;
-   background: -webkit-linear-gradient(78deg,#09009f,#00ff95 60%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   font: 24px/20px sans-serif;
+   color: white;
+   padding: 7px;
+
 }
-#contact h2 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   background: -webkit-linear-gradient(78deg,#09009f,#00ff95 60%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+
+#contact h4:hover {
+   color: #F06000;
 }
-#contact h2:hover {
-   font: 30px/24px 'opensans-bold', sans-serif;
-   background: -webkit-linear-gradient(78deg,#e9e9ed,#00ff95 60%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+#contact .lead {
+   font: 30px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+}
+#contact .network {
+   padding-top: 10px;
 }
 #contact .header-col { padding-top: 6px; text-align: center; }
 

@@ -7,7 +7,7 @@
       { "line1":"As a Full-Stack Developer with expertise in Vue, Python, JavaScript, Docker, and Agile methodology, I have a proven track record of designing, developing, and maintaining web applications that exceed client expectations. With a strong understanding of API development, integration, and software development, I am able to quickly adapt to new technologies and deliver high-quality solutions.",
         "line2":"My experience in collaborating with team members has been crucial in delivering successful projects within tight deadlines. I am able to work in an Agile environment, utilizing team work, and communicating effectively with all stakeholders. My skills in Devops have allowed me to streamline the development process and ensure efficient deployment"
       },
-    "contactmessage":"Please find my contact details below and feel free to reach out to me:",
+    "contactmessage":"Feel free to reach out to me",
     "email": "vivekpythondev@gmail.com",
     "phone": "9521960730",
     "github":"https://github.com/VISHU1999",
@@ -22,14 +22,9 @@
     "resumedownload":"https://drive.google.com/uc?export=download&id=1NkPZKNQrErFFgxjpQaUTsbuyupolk9U7",
     "social":[
       {
-        "name":"facebook",
+        "name":"github",
         "url":"https://github.com/VISHU1999",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"https://twitter.com/Vivek71017?t=-2w_zlwDx9QYu1pHYDFjfQ&s=08",
-        "className":"fa fa-twitter"
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
@@ -37,14 +32,19 @@
         "className":"fa fa-linkedin"
       },
       {
+        "name":"twitter",
+        "url":"https://twitter.com/Vivek71017?t=-2w_zlwDx9QYu1pHYDFjfQ&s=08",
+        "className":"fa fa-twitter"
+      },
+      {
         "name":"instagram",
         "url":"http://instagram.com/vivek71017",
         "className":"fa fa-instagram"
       },
       {
-        "name":"github",
+        "name":"facebook",
         "url":"https://github.com/VISHU1999",
-        "className":"fa fa-github"
+        "className":"fa fa-facebook"
       }
     ]
   },

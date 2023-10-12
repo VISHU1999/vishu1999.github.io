@@ -8,13 +8,13 @@ class Contact extends Component {
     const { phone } = this.props.data;
     const message = this.props.data.contactmessage;
     const networks = this.props.data.social.map((network) => (
-      <h2 key={network.name}>
+      <h4 key={network.name}>
         <a href={network.url}>
           {network.name}
           {' '}
           <i className={network.className} />
         </a>
-      </h2>
+      </h4>
     ));
 
     return (
@@ -23,9 +23,6 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <h4 className="lead">{message}</h4>
-              <h1>
-                <span>Get In Touch.</span>
-              </h1>
             </div>
           </div>
         </Fade>
@@ -33,21 +30,16 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="columns">
-              <h4>Email: viveksharma4318@gmail.com</h4>
-              {networks}
+              <h4>viveksharma4318@gmail.com</h4>
+                <h4>{phone}</h4>
+                <h4>{city}</h4>
             </div>
-
           </Slide>
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
-                <h4> Place and Phone</h4>
-                <h2>{phone}</h2>
-                <h2>
-                  Place:
-                  {city}
-                </h2>
+              <div className="widget widget_contact network">
+              {networks}
               </div>
             </aside>
           </Slide>

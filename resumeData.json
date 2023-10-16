@@ -171,10 +171,10 @@
   "portfolio":{
     "projects": [
       {
-        "title":"TO-DO Application",
-        "category":"My first application on django",
-        "image":"01.jpg",
-        "url":"https://github.com/VISHU1999/TO-DO"
+        "title":"facebook Bot",
+        "category":"Facebook Comments Analyzer using Agents",
+        "image":"facebook.png",
+        "url":"https://github.com/VISHU1999/facebook_page_comment_watcher_agent"
       },
       {
         "title":"Docker+Postgresql",

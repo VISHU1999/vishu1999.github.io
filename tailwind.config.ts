@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const colors = require("tailwindcss/colors");
 
 const config: Config = {
   content: [
@@ -6,6 +7,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       backgroundImage: {
@@ -13,7 +15,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      transitionDuration: {
+        0: "0ms",
+        2000: "2000ms",
+        4000: "4000ms",
+      },
     },
+  },
+  variants: {
+    extend: {},
+    display: ["responsive", "group-hover", "group-focus"],
   },
   plugins: [],
 };

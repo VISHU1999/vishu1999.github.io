@@ -1,36 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Testimonials extends Component {
-  render() {
-    if (!this.props.data) return null;
+const Testimonials = ({ data }) => {
+  if (!data) return null;
 
-    const testimonials = this.props.data.testimonials.map((testimonials) => (
-      <li key={testimonials.user}>
-        <blockquote>
-          <p>{testimonials.text}</p>
-          <cite>{testimonials.user}</cite>
-        </blockquote>
-      </li>
-    ));
+  const testimonials = data.testimonials.map((t) => (
+    <li key={t.user}>
+      <blockquote>
+        <p>{t.text}</p>
+        <cite>{t.user}</cite>
+      </blockquote>
+    </li>
+  ));
 
-    return (
-      <section id="testimonials">
-        <div className="text-container">
-          <div className="row">
-            <div className="two columns header-col">
-              <h1>
-                <span>Client Testimonials</span>
-              </h1>
-            </div>
+  return (
+    <section id="testimonials">
+      <div className="text-container">
+        <div className="row">
+          <div className="two columns header-col">
+            <h1><span>Client Testimonials</span></h1>
+          </div>
 
-            <div className="ten columns flex-container">
-              <ul className="slides">{testimonials}</ul>
-            </div>
+          <div className="ten columns flex-container">
+            <ul className="slides">{testimonials}</ul>
           </div>
         </div>
-      </section>
-    );
-  }
-}
+      </div>
+    </section>
+  );
+};
 
 export default Testimonials;

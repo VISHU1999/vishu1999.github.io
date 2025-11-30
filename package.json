@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://vishu1999.github.io",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -16,6 +17,7 @@
     "react-ga4": "^2.1.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "5.0.0",
+    "react-toastify": "^8.2.0",
     "react-zmage": "^0.8.5-beta.36",
     "web-vitals": "^2.1.0"
   },

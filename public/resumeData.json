@@ -1,200 +1,220 @@
 {
   "main": {
-    "name":"Vivek Sharma",
-    "description":"I am a Full stack developer,I use Python for backend and Vue and React for frontend,I also have expertise in Devops work",
-    "image":"profilepic.jpeg",
-    "bio":
-      { "line1":"As a Full-Stack Developer with expertise in Vue, Python, JavaScript, Docker, and Agile methodology, I have a proven track record of designing, developing, and maintaining web applications that exceed client expectations. With a strong understanding of API development, integration, and software development, I am able to quickly adapt to new technologies and deliver high-quality solutions.",
-        "line2":"My experience in collaborating with team members has been crucial in delivering successful projects within tight deadlines. I am able to work in an Agile environment, utilizing team work, and communicating effectively with all stakeholders. My skills in Devops have allowed me to streamline the development process and ensure efficient deployment"
+      "name": "Vivek Sharma",
+      "description": "I am a Full stack developer,I use Python for backend and Vue and React for frontend,I also have expertise in Devops work",
+      "image": "profilepic.jpeg",
+      "bio": {
+          "line1": "As a Full-Stack Developer with expertise in Vue, Python, JavaScript, Docker, and Agile methodology, I have a proven track record of designing, developing, and maintaining web applications that exceed client expectations. With a strong understanding of API development, integration, and software development, I am able to quickly adapt to new technologies and deliver high-quality solutions.",
+          "line2": "My experience in collaborating with team members has been crucial in delivering successful projects within tight deadlines. I am able to work in an Agile environment, utilizing team work, and communicating effectively with all stakeholders. My skills in Devops have allowed me to streamline the development process and ensure efficient deployment"
       },
-    "contactmessage":"Feel free to reach out to me",
-    "email": "vivekpythondev@gmail.com",
-    "phone": "9521960730",
-    "github":"https://github.com/VISHU1999",
-    "project":"https://github.com/VISHU1999",
-    "address":{
-      "street":"",
-      "city":"Bangalore",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
-    "website": "",
-    "resumedownload":"https://drive.google.com/uc?export=download&id=1NkPZKNQrErFFgxjpQaUTsbuyupolk9U7",
-    "social":[
-      {
-        "name":"github",
-        "url":"https://github.com/VISHU1999",
-        "className":"fa fa-github"
+      "contactmessage": "Feel free to reach out to me",
+      "email": "vivekpythondev@gmail.com",
+      "phone": "9521960730",
+      "github": "https://github.com/VISHU1999",
+      "project": "https://github.com/VISHU1999",
+      "address": {
+          "street": "",
+          "city": "Bangalore",
+          "state": "(Your State)",
+          "zip": "(Your Zip/Postal Code)"
       },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/vivek-sharma-726190148/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"twitter",
-        "url":"https://twitter.com/Vivek71017?t=-2w_zlwDx9QYu1pHYDFjfQ&s=08",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/vivek71017",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"facebook",
-        "url":"https://github.com/VISHU1999",
-        "className":"fa fa-facebook"
-      }
-    ]
+      "website": "",
+      "resumedownload": "https://drive.google.com/uc?export=download&id=12IhE-N0pQU2hOgyJLT-YSHf-T5f34q2e",
+      "social": [
+          {
+              "name": "github",
+              "url": "https://github.com/VISHU1999",
+              "className": "fa fa-github"
+          },
+          {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/in/vivek-sharma-726190148/",
+              "className": "fa fa-linkedin"
+          },
+          {
+              "name": "twitter",
+              "url": "https://twitter.com/Vivek71017?t=-2w_zlwDx9QYu1pHYDFjfQ&s=08",
+              "className": "fa fa-twitter"
+          },
+          {
+              "name": "instagram",
+              "url": "http://instagram.com/vivek71017",
+              "className": "fa fa-instagram"
+          },
+          {
+              "name": "facebook",
+              "url": "https://github.com/VISHU1999",
+              "className": "fa fa-facebook"
+          }
+      ]
   },
-  "resume":{
-    "skillmessage":"Quantifying My Proficiency: Skills in Percentages",  
-    "education":[
-      {
-        "school":"MLV Textile and Engineering college",
-        "degree":"B.Tech",
-        "graduated":"2021",
-        "description":"Completed my Bachelor degree in Information technology branch with first division"
-      },
-      {
-        "school":"Rajendar-Marg SS school",
-        "degree":"Class 12",
-        "graduated":"2017",
-        "description":"Completed my 12th in science stream with first division"
-      }
-    ],
-    "work":[
-      {
-        "company":"HashTrust Technology",
-        "positions": [{
-          "title":"Senior Solution Engineer",
-          "years":"Sep 2020 - Present",
-          "description":"As a solution engineer, I take ownership of clients' requirements and deliver innovative solutions that meet their business objectives. I leverage the latest development tools and workflows, including Git, Bitbucket, and Jira, to provide exceptional service and technical expertise.My expertise in Python's core concepts and frameworks, such as FastAPI, Django, DRF, Flask, and Redis as cache, allows me to build robust and scalable products. With a strong background in web development, I specialize in creating modern, responsive interfaces using Tailwind CSS and Vue.js, ensuring an exceptional user experience.I have a comprehensive knowledge of testing tools and best practices, including using httpx_mock to write API test cases that ensure reliability and security. With cutting-edge testing methodologies, I deliver products that exceed industry standards and provide the highest level of security to our clients."
-      },
-      {
-        "title":"Solution Engineer",
-        "years":"",
-        "description":"In this journey With extensive experience in Python and Django web applications, I specialize in creating highly interactive web applications using a range of technologies, including JavaScript, HTML5, CSS, JSON, and Vue.js. My expertise also includes RestAPI, serializers, and class-based viewsets, as well as proficiency in both relational and NoSQL databases. I have a strong understanding of Continuous Delivery build pipeline tools such as Git, Docker, and Squash, and hands-on experience with multi-stage Docker writing. This allows me to efficiently develop and deploy reliable software solutions of the highest quality for clients"
-    },
-    {
-      "title":"Associate Software Developer",
-      "years":"",
-      "description":"In this journey I learned advance topic of Python and Django web development, with SQL proficiency. Skilled in Django and Vue.js for creating robust and interactive web applications. Familiar with Agile methodology for timely project delivery. Committed to quality assurance to exceed client expectations."
-    }]
-    }
-    ],
-    "certifications":[
-      {
-        "name":"Machine Learning for All",
-        "url":"https://www.coursera.org/account/accomplishments/verify/WGXUFHNENVPE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
-
-      },
-      {
-        "name":"Python for beginners",
-        "url":"https://www.udemy.com/certificate/UC-47e066cc-f9e2-4a2b-a71e-e9a9c9d3ae4b/"
-
-      },
-      {
-        "name":"Git Advanced",
-        "url":"https://www.udemy.com/certificate/UC-09c81551-a175-46cb-8723-1ca9abd3e8aa/"
-
-      },
-      {
-        "name":"Docker Essentials: A Developer Introduction",
-        "url":"https://courses.cognitiveclass.ai/certificates/06f20e07b039405fa2ab295decb0f8ce"
-      },
-      {
-        "name":"Mango-DB",
-        "url":"https://university.mongodb.com/course_completion/e3b56eda-acfd-4a5c-95b5-49a264a6f832"
-      },
-      {
-        "name":"Redis for Python Developer",
-        "url":"https://university.redis.com/certificates/b3b1fccbb8914b7386f90c27d7487fef"
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"90%"
-      },
-      {
-        "name":"Django",
-        "level":"90%"
-      },
-      {
-        "name":"Fast-API",
-        "level":"80%"
-      },
-      {
-        "name":"DRF",
-        "level":"90%"
-      },
-      {
-        "name":"Git",
-        "level":"90%"
-      },
-      {
-        "name":"Docker",
-        "level":"80%"
-      },
-      {
-        "name":"Linux",
-        "level":"80%"
-      },
-      {
-        "name":"Postgresql/SQL",
-        "level":"70%"
-      },
-      {
-        "name":"JavaScript",
-        "level":"75%"
-      },
-      {
-        "name":"VueJs",
-        "level":"75%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"60%"
-      },
-      {
-        "name":"Tailwind",
-        "level":"60%"
-      },
-      {
-        "name":"Mango-DB",
-        "level":"60%"
-      }
-    ]
+  "resume": {
+      "skillmessage": "Quantifying My Proficiency: Skills in Percentages",
+      "education": [
+          {
+              "school": "MLV Textile and Engineering college",
+              "degree": "B.Tech",
+              "graduated": "2021",
+              "description": "Completed my Bachelor degree in Information technology branch with first division"
+          },
+          {
+              "school": "Rajendar-Marg SS school",
+              "degree": "Class 12",
+              "graduated": "2017",
+              "description": "Completed my 12th in science stream with first division"
+          }
+      ],
+      "work": [
+          {
+              "company": "Guardant Health",
+              "positions": [
+                  {
+                      "title": "Full Stack Developer",
+                      "years": "May 2024 - Present",
+                      "description": "At Guardant Health, I spearhead the development of scalable SaaS platforms using Python, Django, FastAPI, and Kafka. I have designed highly configurable system architectures that adapt dynamically to client needs, and led the AIMS centralized inventory management system—improving operational efficiency. I also optimized large-scale data flows using Kafka for real-time processing, enhanced front-end performance with Next.js/React, and contributed across Agile sprints. With robust testing practices (pytest, Jest), I consistently maintain 85%+ code coverage to ensure reliability and scalability."
+                  }
+              ]
+          },
+          {
+              "company": "HashTrust Technology",
+              "positions": [
+                  {
+                      "title": "Senior Solution Engineer",
+                      "years": "Aug 2022 - May 2024",
+                      "description": "As a solution engineer, I take ownership of clients' requirements and deliver innovative solutions that meet their business objectives. I leverage the latest development tools and workflows, including Git, Bitbucket, and Jira, to provide exceptional service and technical expertise.My expertise in Python's core concepts and frameworks, such as FastAPI, Django, DRF, Flask, and Redis as cache, allows me to build robust and scalable products. With a strong background in web development, I specialize in creating modern, responsive interfaces using Tailwind CSS and Vue.js, ensuring an exceptional user experience.I have a comprehensive knowledge of testing tools and best practices, including using httpx_mock to write API test cases that ensure reliability and security. With cutting-edge testing methodologies, I deliver products that exceed industry standards and provide the highest level of security to our clients."
+                  },
+                  {
+                      "title": "Solution Engineer",
+                      "years": "Mar 2021 - Aug 2022",
+                      "description": "In this journey With extensive experience in Python and Django web applications, I specialize in creating highly interactive web applications using a range of technologies, including JavaScript, HTML5, CSS, JSON, and Vue.js. My expertise also includes RestAPI, serializers, and class-based viewsets, as well as proficiency in both relational and NoSQL databases. I have a strong understanding of Continuous Delivery build pipeline tools such as Git, Docker, and Squash, and hands-on experience with multi-stage Docker writing. This allows me to efficiently develop and deploy reliable software solutions of the highest quality for clients"
+                  },
+                  {
+                      "title": "Associate Software Developer",
+                      "years": "Sep 2020 - Mar 2021",
+                      "description": "In this journey I learned advance topic of Python and Django web development, with SQL proficiency. Skilled in Django and Vue.js for creating robust and interactive web applications. Familiar with Agile methodology for timely project delivery. Committed to quality assurance to exceed client expectations."
+                  }
+              ]
+          }
+      ],
+      "certifications": [
+          {
+              "name": "Machine Learning for All",
+              "url": "https://www.coursera.org/account/accomplishments/verify/WGXUFHNENVPE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+          },
+          {
+              "name": "Python for beginners",
+              "url": "https://www.udemy.com/certificate/UC-47e066cc-f9e2-4a2b-a71e-e9a9c9d3ae4b/"
+          },
+          {
+              "name": "Git Advanced",
+              "url": "https://www.udemy.com/certificate/UC-09c81551-a175-46cb-8723-1ca9abd3e8aa/"
+          },
+          {
+              "name": "Docker Essentials: A Developer Introduction",
+              "url": "https://courses.cognitiveclass.ai/certificates/06f20e07b039405fa2ab295decb0f8ce"
+          },
+          {
+              "name": "Mango-DB",
+              "url": "https://university.mongodb.com/course_completion/e3b56eda-acfd-4a5c-95b5-49a264a6f832"
+          },
+          {
+              "name": "Redis for Python Developer",
+              "url": "https://university.redis.com/certificates/b3b1fccbb8914b7386f90c27d7487fef"
+          }
+      ],
+      "skills": [
+          {
+              "name": "Python",
+              "level": "90%"
+          },
+          {
+              "name": "Django",
+              "level": "90%"
+          },
+          {
+              "name": "Fast-API",
+              "level": "80%"
+          },
+          {
+              "name": "DRF",
+              "level": "90%"
+          },
+          {
+              "name": "Git",
+              "level": "90%"
+          },
+          {
+              "name": "Docker",
+              "level": "80%"
+          },
+          {
+              "name": "Linux",
+              "level": "80%"
+          },
+          {
+              "name": "Postgresql/SQL",
+              "level": "80%"
+          },
+          {
+              "name": "JavaScript",
+              "level": "75%"
+          },
+          {
+              "name": "Redis",
+              "level": "85%"
+          },
+          {
+              "name": "Kafka",
+              "level": "75%"
+          },
+          {
+              "name": "System Design",
+              "level": "70%"
+          },
+          {
+              "name": "VueJs",
+              "level": "75%"
+          },
+          {
+              "name": "ReactJs",
+              "level": "75%"
+          },
+          {
+              "name": "Tailwind",
+              "level": "70%"
+          },
+          {
+              "name": "Mango-DB",
+              "level": "60%"
+          }
+      ]
   },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"facebook Bot",
-        "category":"Facebook Comments Analyzer using Agents",
-        "image":"facebook.png",
-        "url":"https://github.com/VISHU1999/facebook_page_comment_watcher_agent"
-      },
-      {
-        "title":"Docker+Postgresql",
-        "category":"Multi stage docker with django+Postgresql+redis",
-        "image":"02.jpg",
-        "url":"https://github.com/VISHU1999/django-postgres-with-docker-"
-      },
-      {
-        "title":"Swagger+DRF",
-        "category":"Swagger integration with DRF in docker",
-        "image":"04.png",
-        "url":"https://github.com/VISHU1999/DRF-with-swagger-example"
-      },
-      {
-        "title":"Coming Soon",
-        "category":"Some Django+vue project coming Soon",
-        "image":"03.png",
-        "url":"https://github.com/VISHU1999/django-postgres-with-docker-"
-      }
-
-    ]
+  "portfolio": {
+      "projects": [
+          {
+              "title": "facebook Bot",
+              "category": "Facebook Comments Analyzer using Agents",
+              "image": "facebook.png",
+              "url": "https://github.com/VISHU1999/facebook_page_comment_watcher_agent"
+          },
+          {
+              "title": "Docker+Postgresql",
+              "category": "Multi stage docker with django+Postgresql+redis",
+              "image": "02.jpg",
+              "url": "https://github.com/VISHU1999/django-postgres-with-docker-"
+          },
+          {
+              "title": "Swagger+DRF",
+              "category": "Swagger integration with DRF in docker",
+              "image": "04.png",
+              "url": "https://github.com/VISHU1999/DRF-with-swagger-example"
+          },
+          {
+              "title": "FastAPI + Docker + Postgresql",
+              "category": "CRUD operations with FastAPI and Postgresql",
+              "image": "FastAPI-docker.png",
+              "url": "https://github.com/VISHU1999/Hospital_bulk_upload"
+          }
+      ]
   }
 }

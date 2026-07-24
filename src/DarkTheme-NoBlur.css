@@ -1,0 +1,90 @@
+/* Remove all blur and glow effects - Sharp and Clean */
+
+/* Override resume section blurs */
+#resume h1 {
+  color: var(--accent-primary) !important;
+  text-shadow: none !important;
+}
+
+#resume .three.columns.header-col h1 span {
+  background: var(--bg-card) !important;
+  border: 2px solid var(--accent-primary) !important;
+  padding: 12px 24px !important;
+  color: var(--accent-primary) !important;
+  font-weight: 600 !important;
+  text-shadow: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Work section - no blur */
+.row.work h3 {
+  color: var(--accent-primary) !important;
+  font-weight: 600 !important;
+  text-shadow: none !important;
+}
+
+/* Education section - no blur */
+.row.education h3 {
+  color: var(--accent-secondary) !important;
+  font-weight: 600 !important;
+  text-shadow: none !important;
+}
+
+/* Position title - sharp */
+.position-title {
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+  text-shadow: none !important;
+}
+
+/* Remove glow from buttons */
+button, .button {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  text-shadow: none !important;
+}
+
+button:hover, .button:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Certificate - clean */
+.certificate {
+  box-shadow: none !important;
+}
+
+.certificate:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Links - no glow */
+a:hover {
+  text-shadow: none !important;
+}
+
+/* Certificate links sharp */
+.certificate h4 a:hover {
+  box-shadow: 0 2px 8px rgba(0, 240, 255, 0.2) !important;
+  text-shadow: none !important;
+}
+
+/* Form inputs - no glow focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+  box-shadow: 0 0 0 3px rgba(0, 240, 255, 0.15) !important;
+}
+
+/* Remove all text-shadow globally */
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header columns - solid background */
+.header-col {
+  background: var(--bg-card) !important;
+  box-shadow: none !important;
+}

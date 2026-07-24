@@ -1,6 +1,6 @@
 import React from 'react';
 import ParticlesBg from 'particles-bg';
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal';
 import Zmage from 'react-zmage';
 
 const Header = ({ data }) => {

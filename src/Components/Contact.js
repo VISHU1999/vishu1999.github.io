@@ -1,23 +1,28 @@
-import React, { useState } from 'react';
-import { Fade, Slide } from 'react-reveal';
+import React, { useState, useEffect } from 'react';
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = ({ data }) => {
-
-  const { city } = data.address || {};
-  const { phone } = data || {};
-  const message = data.contactmessage || 'Get in touch';
-  const social = data.social || [];
-
   // form state
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState(null);
 
+  // Initialize EmailJS - must be before conditional return
+  useEffect(() => {
+    emailjs.init('Y7piF5J5Grb1Z-IYc');
+  }, []);
+
   if (!data) return null;
+
+  const { city } = data.address || {};
+  const { phone } = data || {};
+  const message = data.contactmessage || 'Get in touch';
+  const social = data.social || [];
 
   const validate = () => {
     const e = {};
@@ -45,25 +50,36 @@ const Contact = ({ data }) => {
       toast.error("Please fix the errors in the form!");
       return;
     }
+    
+    setStatus('sending');
+    
     const templateParams = {
-      name: form.name,
-      email: form.email,
-      subject: form.subject,
+      from_name: form.name,
+      from_email: form.email,
+      subject: form.subject || 'Contact Form Message',
       message: form.message,
+      to_name: 'Vivek Sharma',
     };
+    
     toast.info("Sending message...");
-    emailjs.send('service_upt2gwz', 'template_zztekd6', templateParams, 'Y7piF5J5Grb1Z-IYc')
+    
+    emailjs.send('service_rrnv1t5', 'template_zztekd6', templateParams, 'Y7piF5J5Grb1Z-IYc')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setStatus('sent');
-        resetForm()
+        resetForm();
         setTimeout(() => {
           toast.success("Message sent successfully!");
+          setStatus(null);
         }, 800);
-      }, (err) => {
+      })
+      .catch((err) => {
         console.error('FAILED...', err);
         setStatus('error');
-        toast.error("Something went wrong! Please try again.");
+        toast.error(`Failed to send message: ${err.text || 'Please try again later'}`);
+        setTimeout(() => {
+          setStatus(null);
+        }, 2000);
       });
   }
 

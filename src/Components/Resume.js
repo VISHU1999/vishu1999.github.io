@@ -1,14 +1,12 @@
-import React from 'react';
-import Slide from 'react-reveal';
+import React, { useState } from 'react';
+import Slide from 'react-reveal/Slide';
+import SkillBar from './SkillBar';
+import './Skills.css';
 
 const Resume = ({ data }) => {
+  const [activeCategory, setActiveCategory] = useState('All');
+  
   if (!data) return null;
-
-  const getRandomColor = () => {
-    // const hue = Math.floor(Math.random() * 360);
-    // return `hsl(${hue}, 90%, 60%)`;   // pastel-ish
-    return '#00000'
-  };
 
   const { skillmessage } = data;
 
@@ -45,16 +43,50 @@ const Resume = ({ data }) => {
     </div>
   ));
 
-  const skills = data.skills.map((skill) => {
-    const backgroundColor = getRandomColor();
-    const className = `bar-expand ${skill.name.toLowerCase()}`;
-    const width = skill.level; // expecting e.g. '90%'
+  // Group skills by category
+  const skillsByCategory = data.skills.reduce((acc, skill) => {
+    const category = skill.category || 'Other';
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(skill);
+    return acc;
+  }, {});
 
+  // Get unique categories
+  const categories = ['All', ...Object.keys(skillsByCategory)];
+
+  // Filter skills based on active category
+  const filteredSkills = activeCategory === 'All' 
+    ? data.skills 
+    : skillsByCategory[activeCategory] || [];
+
+  // Category colors
+  const categoryColors = {
+    'Backend': '#4f46e5',
+    'Frontend': '#06b6d4',
+    'Database': '#10b981',
+    'Distributed Systems': '#f59e0b',
+    'DevOps': '#8b5cf6',
+    'Architecture': '#ec4899',
+    'AI/ML': '#ef4444',
+    'Quality Assurance': '#14b8a6',
+    'Other': '#6366f1'
+  };
+
+  const getSkillColor = (category) => {
+    return categoryColors[category] || '#6366f1';
+  };
+
+  const skills = filteredSkills.map((skill, index) => {
+    const color = getSkillColor(skill.category);
     return (
-      <li key={skill.name}>
-        <span style={{ width, backgroundColor }} className={className} />
-        <em>{skill.name}</em>
-      </li>
+      <SkillBar 
+        key={skill.name} 
+        skill={skill} 
+        index={index} 
+        color={color} 
+      />
     );
   });
 
@@ -97,9 +129,50 @@ const Resume = ({ data }) => {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
+            <p className="skill-message">{skillmessage}</p>
+            
+            {/* Category Filter Pills */}
+            <div className="skill-categories">
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  className={`category-pill ${activeCategory === category ? 'active' : ''}`}
+                  onClick={() => setActiveCategory(category)}
+                  style={{
+                    backgroundColor: activeCategory === category ? getSkillColor(category) : 'transparent',
+                    borderColor: getSkillColor(category),
+                    color: activeCategory === category ? '#fff' : getSkillColor(category)
+                  }}
+                >
+                  {category}
+                  <span className="pill-count">
+                    {category === 'All' ? data.skills.length : (skillsByCategory[category] || []).length}
+                  </span>
+                </button>
+              ))}
+            </div>
+
+            {/* Skills Grid */}
+            <div className="skills-modern-grid">
+              {skills}
+            </div>
+
+            {/* Skills Summary Stats */}
+            <div className="skills-stats">
+              <div className="stat-card">
+                <div className="stat-number">{data.skills.length}</div>
+                <div className="stat-label">Technologies</div>
+              </div>
+              <div className="stat-card">
+                <div className="stat-number">{Object.keys(skillsByCategory).length}</div>
+                <div className="stat-label">Categories</div>
+              </div>
+              <div className="stat-card">
+                <div className="stat-number">
+                  {Math.round(data.skills.reduce((sum, s) => sum + parseInt(s.level), 0) / data.skills.length)}%
+                </div>
+                <div className="stat-label">Avg Proficiency</div>
+              </div>
             </div>
           </div>
         </div>

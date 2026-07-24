@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import './DarkTheme.css';
+import './DarkTheme-NoBlur.css';
+import './HeaderFix.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';

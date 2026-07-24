@@ -1,0 +1,87 @@
+/* HEADER TEXT VISIBILITY FIX */
+
+/* Make all section header text BRIGHT and VISIBLE */
+section h1 span,
+section h2 span,
+.three.columns.header-col h1 span {
+  background: var(--bg-secondary) !important;
+  color: #00f0ff !important;
+  border: 2px solid #00f0ff !important;
+  padding: 12px 24px !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  display: inline-block !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Ensure the h1 itself is also visible */
+.three.columns.header-col h1 {
+  color: #00f0ff !important;
+  font-size: 22px !important;
+}
+
+/* Force text visibility */
+#resume h1,
+#resume h1 span {
+  color: #00f0ff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Make sure Work/Education/Certifications/Skills headers are bright */
+.row.work .header-col h1 span,
+.row.education .header-col h1 span,
+.row.skill .header-col h1 span {
+  background: #1a1a24 !important;
+  color: #00f0ff !important;
+  border-color: #00f0ff !important;
+}
+
+/* Selected/hover state */
+section h1 span:hover {
+  background: #00f0ff !important;
+  color: #0a0a0f !important;
+}
+
+/* Additional overrides to ensure visibility */
+* h1 span {
+  color: #00f0ff !important;
+}
+
+/* Remove any transparent or invisible text */
+h1 > span,
+h2 > span,
+h3 > span {
+  -webkit-text-fill-color: #00f0ff !important;
+  color: #00f0ff !important;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+}
+
+/* Specific to resume section */
+#resume .three.columns.header-col h1 {
+  background: transparent !important;
+}
+
+#resume .three.columns.header-col h1 span {
+  background: #111118 !important;
+  color: #00f0ff !important;
+  border: 2px solid #00f0ff !important;
+  font-family: 'Chakra Petch', sans-serif !important;
+  font-size: 20px !important;
+  padding: 10px 20px !important;
+  text-shadow: none !important;
+  -webkit-text-fill-color: #00f0ff !important;
+}
+
+/* Override any gradient text on headers */
+#resume h1,
+#resume h2,
+#resume h3 {
+  background: none !important;
+  -webkit-text-fill-color: #00f0ff !important;
+  color: #00f0ff !important;
+}

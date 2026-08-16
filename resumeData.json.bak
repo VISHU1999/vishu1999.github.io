@@ -1,0 +1,449 @@
+{
+  "main": {
+      "name": "Vivek Sharma",
+      "occupation": "Senior Software Engineer",
+      "description": "Senior Software Engineer specializing in scalable backend systems, distributed architectures, and AI-powered applications. Expert in Python, Django, FastAPI, and modern frontend frameworks.",
+      "image": "profilepic.jpeg",
+      "bio": {
+          "line1": "Senior Software Engineer at Guardant Health with 4+ years of experience building enterprise-grade SaaS platforms and distributed systems. I architect highly configurable, scalable solutions using Python (Django, FastAPI), event-driven architectures (Kafka), and modern frontend technologies (React, Next.js, Vue.js).",
+          "line2": "Passionate about creating robust, production-ready systems that solve real-world problems. My expertise spans backend development, system design, DevOps practices, and AI integration. I thrive in collaborative Agile environments and consistently deliver high-quality solutions with 85%+ test coverage."
+      },
+      "contactmessage": "Feel free to reach out to me",
+      "email": "vivekpythondev@gmail.com",
+      "phone": "9521960730",
+      "github": "https://github.com/VISHU1999",
+      "project": "https://github.com/VISHU1999",
+      "address": {
+          "street": "",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "zip": ""
+      },
+      "yearsOfExperience": "4+",
+      "projectsCompleted": "50+",
+      "technologiesMastered": "15+",
+      "website": "",
+      "resumedownload": "https://drive.google.com/uc?export=download&id=12IhE-N0pQU2hOgyJLT-YSHf-T5f34q2e",
+      "blogs": [
+          {
+              "title": "Building Scalable Microservices with FastAPI and Kafka",
+              "category": "Backend Development",
+              "date": "Dec 2025",
+              "excerpt": "A comprehensive guide to building event-driven microservices architecture using FastAPI, Kafka, and Docker. Learn how to design resilient distributed systems that scale.",
+              "tags": ["FastAPI", "Kafka", "Microservices", "Python"],
+              "readTime": "8 min read",
+              "url": "https://github.com/VISHU1999"
+          },
+          {
+              "title": "System Design: Designing a URL Shortener at Scale",
+              "category": "System Design",
+              "date": "Nov 2025",
+              "excerpt": "Deep dive into designing a high-performance URL shortener service. Covers database design, caching strategies, rate limiting, and handling 10M+ daily requests.",
+              "tags": ["System Design", "Redis", "PostgreSQL", "Architecture"],
+              "readTime": "12 min read",
+              "url": "https://github.com/VISHU1999"
+          },
+          {
+              "title": "Integrating LLMs into Production Applications",
+              "category": "AI/ML",
+              "date": "Oct 2025",
+              "excerpt": "Practical guide to integrating Large Language Models into production systems. Covers prompt engineering, cost optimization, error handling, and monitoring best practices.",
+              "tags": ["AI", "LLM", "OpenAI", "Production"],
+              "readTime": "10 min read",
+              "url": "https://github.com/VISHU1999"
+          }
+      ],
+      "social": [
+          {
+              "name": "github",
+              "url": "https://github.com/VISHU1999",
+              "className": "fa fa-github"
+          },
+          {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/in/vivek-sharma-726190148/",
+              "className": "fa fa-linkedin"
+          },
+          {
+              "name": "twitter",
+              "url": "https://twitter.com/Vivek71017?t=-2w_zlwDx9QYu1pHYDFjfQ&s=08",
+              "className": "fa fa-twitter"
+          },
+          {
+              "name": "instagram",
+              "url": "http://instagram.com/vivek71017",
+              "className": "fa fa-instagram"
+          },
+          {
+              "name": "facebook",
+              "url": "https://github.com/VISHU1999",
+              "className": "fa fa-facebook"
+          }
+      ]
+  },
+  "resume": {
+      "skillmessage": "Quantifying My Proficiency: Skills in Percentages",
+      "education": [
+          {
+              "school": "Rajasthan Technical University (RTU)",
+              "degree": "B.Tech in Information Technology",
+              "graduated": "2017 - 2021",
+              "description": "Completed Bachelor's degree in Information Technology with First Division. Strong foundation in computer science fundamentals, data structures, algorithms, and software engineering principles."
+          },
+          {
+              "school": "Rajendar-Marg SS School",
+              "degree": "Higher Secondary (Class 12)",
+              "graduated": "2017",
+              "description": "Science stream with First Division. Built strong analytical and problem-solving skills in Mathematics and Physics."
+          }
+      ],
+      "work": [
+          {
+              "company": "Guardant Health",
+              "logo": "guardant-health-logo.png",
+              "website": "https://guardanthealth.com",
+              "positions": [
+                  {
+                      "title": "Senior Software Engineer",
+                      "years": "May 2024 - Present",
+                      "location": "Bangalore, India",
+                      "description": "Leading development of enterprise-grade SaaS platforms for healthcare solutions, architecting highly scalable and configurable systems.",
+                      "achievements": [
+                          "Architected and led development of AIMS (Centralized Inventory Management System), improving operational efficiency by 40%",
+                          "Designed highly configurable system architectures that dynamically adapt to diverse client requirements",
+                          "Optimized large-scale data flows using Kafka for real-time event processing, handling 10K+ events/minute",
+                          "Enhanced frontend performance with Next.js/React, achieving 95+ Lighthouse scores",
+                          "Maintained 85%+ code coverage using pytest and Jest with comprehensive unit and integration tests",
+                          "Collaborated in Agile sprints, contributing to architecture decisions and mentoring junior developers"
+                      ],
+                      "techStack": ["Python", "Django", "FastAPI", "Kafka", "Redis", "PostgreSQL", "Next.js", "React", "AWS", "Docker"]
+                  }
+              ]
+          },
+          {
+              "company": "HashTrust Technology",
+              "logo": "hashtrust-logo.png",
+              "website": "https://hashtrust.com",
+              "positions": [
+                  {
+                      "title": "Senior Solution Engineer",
+                      "years": "Aug 2022 - May 2024",
+                      "location": "Remote",
+                      "description": "Led development of innovative software solutions, taking ownership of client requirements and delivering robust, scalable products.",
+                      "achievements": [
+                          "Architected and delivered 15+ client projects using Python frameworks (FastAPI, Django, DRF, Flask)",
+                          "Built RESTful APIs serving 100K+ daily requests with sub-100ms response times",
+                          "Implemented Redis caching strategies, reducing database load by 60%",
+                          "Created modern, responsive UIs with Tailwind CSS and Vue.js, improving user engagement by 35%",
+                          "Established comprehensive testing practices with httpx_mock and pytest, achieving 90%+ coverage",
+                          "Mentored junior developers on best practices, code reviews, and architecture patterns"
+                      ],
+                      "techStack": ["Python", "FastAPI", "Django", "DRF", "Flask", "Redis", "Vue.js", "Tailwind CSS", "PostgreSQL", "MongoDB", "Docker"]
+                  },
+                  {
+                      "title": "Solution Engineer",
+                      "years": "Mar 2021 - Aug 2022",
+                      "location": "Remote",
+                      "description": "Developed highly interactive web applications and RESTful APIs for diverse client needs.",
+                      "achievements": [
+                          "Built 10+ production-ready Django applications with Vue.js frontends",
+                          "Designed RESTful APIs using Django REST Framework with serializers and viewsets",
+                          "Implemented CI/CD pipelines using Git, Docker, and multi-stage builds",
+                          "Worked with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases",
+                          "Delivered projects on time using Agile methodology and Scrum practices"
+                      ],
+                      "techStack": ["Python", "Django", "Vue.js", "JavaScript", "PostgreSQL", "MongoDB", "Docker", "Git"]
+                  },
+                  {
+                      "title": "Associate Software Developer",
+                      "years": "Sep 2020 - Mar 2021",
+                      "location": "Remote",
+                      "description": "Learned and applied advanced Python and Django concepts while contributing to production projects.",
+                      "achievements": [
+                          "Developed 5+ Django web applications with Vue.js integration",
+                          "Wrote efficient SQL queries and optimized database performance",
+                          "Collaborated in Agile teams for timely project delivery",
+                          "Maintained high code quality through reviews and testing"
+                      ],
+                      "techStack": ["Python", "Django", "Vue.js", "SQL", "HTML/CSS", "JavaScript"]
+                  }
+              ]
+          }
+      ],
+      "certifications": [
+          {
+              "name": "Machine Learning for All",
+              "url": "https://www.coursera.org/account/accomplishments/verify/WGXUFHNENVPE?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+          },
+          {
+              "name": "Python for beginners",
+              "url": "https://www.udemy.com/certificate/UC-47e066cc-f9e2-4a2b-a71e-e9a9c9d3ae4b/"
+          },
+          {
+              "name": "Git Advanced",
+              "url": "https://www.udemy.com/certificate/UC-09c81551-a175-46cb-8723-1ca9abd3e8aa/"
+          },
+          {
+              "name": "Docker Essentials: A Developer Introduction",
+              "url": "https://courses.cognitiveclass.ai/certificates/06f20e07b039405fa2ab295decb0f8ce"
+          },
+          {
+              "name": "Mango-DB",
+              "url": "https://university.mongodb.com/course_completion/e3b56eda-acfd-4a5c-95b5-49a264a6f832"
+          },
+          {
+              "name": "Redis for Python Developer",
+              "url": "https://university.redis.com/certificates/b3b1fccbb8914b7386f90c27d7487fef"
+          }
+      ],
+      "skills": [
+          {
+              "name": "Python",
+              "level": "95%",
+              "category": "Backend",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "Django",
+              "level": "95%",
+              "category": "Backend",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "FastAPI",
+              "level": "90%",
+              "category": "Backend",
+              "yearsOfExperience": "3+"
+          },
+          {
+              "name": "Django REST Framework",
+              "level": "95%",
+              "category": "Backend",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "Flask",
+              "level": "85%",
+              "category": "Backend",
+              "yearsOfExperience": "3+"
+          },
+          {
+              "name": "Kafka",
+              "level": "85%",
+              "category": "Distributed Systems",
+              "yearsOfExperience": "1+"
+          },
+          {
+              "name": "Redis",
+              "level": "90%",
+              "category": "Distributed Systems",
+              "yearsOfExperience": "3+"
+          },
+          {
+              "name": "PostgreSQL",
+              "level": "90%",
+              "category": "Database",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "MongoDB",
+              "level": "75%",
+              "category": "Database",
+              "yearsOfExperience": "2+"
+          },
+          {
+              "name": "React",
+              "level": "85%",
+              "category": "Frontend",
+              "yearsOfExperience": "2+"
+          },
+          {
+              "name": "Next.js",
+              "level": "85%",
+              "category": "Frontend",
+              "yearsOfExperience": "1+"
+          },
+          {
+              "name": "Vue.js",
+              "level": "85%",
+              "category": "Frontend",
+              "yearsOfExperience": "3+"
+          },
+          {
+              "name": "Tailwind CSS",
+              "level": "90%",
+              "category": "Frontend",
+              "yearsOfExperience": "2+"
+          },
+          {
+              "name": "JavaScript/TypeScript",
+              "level": "85%",
+              "category": "Frontend",
+              "yearsOfExperience": "3+"
+          },
+          {
+              "name": "Docker",
+              "level": "90%",
+              "category": "DevOps",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "AWS",
+              "level": "80%",
+              "category": "DevOps",
+              "yearsOfExperience": "2+"
+          },
+          {
+              "name": "Git/GitHub",
+              "level": "95%",
+              "category": "DevOps",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "CI/CD",
+              "level": "85%",
+              "category": "DevOps",
+              "yearsOfExperience": "3+"
+          },
+          {
+              "name": "System Design",
+              "level": "80%",
+              "category": "Architecture",
+              "yearsOfExperience": "2+"
+          },
+          {
+              "name": "Microservices",
+              "level": "80%",
+              "category": "Architecture",
+              "yearsOfExperience": "2+"
+          },
+          {
+              "name": "RESTful APIs",
+              "level": "95%",
+              "category": "Architecture",
+              "yearsOfExperience": "4+"
+          },
+          {
+              "name": "AI/LLM Integration",
+              "level": "75%",
+              "category": "AI/ML",
+              "yearsOfExperience": "1+"
+          },
+          {
+              "name": "Testing (pytest, Jest)",
+              "level": "90%",
+              "category": "Quality Assurance",
+              "yearsOfExperience": "3+"
+          }
+      ]
+  },
+  "portfolio": {
+      "projects": [
+          {
+              "title": "AI-Powered Interview Platform",
+              "category": "AI/LLM Application",
+              "description": "Built an intelligent interview platform leveraging Large Language Models to conduct dynamic technical interviews, evaluate responses in real-time, and provide comprehensive feedback.",
+              "image": "ai-interview.png",
+              "techStack": ["Python", "FastAPI", "LLMs", "React", "PostgreSQL", "Redis"],
+              "highlights": [
+                  "Integrated OpenAI GPT models for intelligent question generation",
+                  "Implemented real-time response evaluation with sentiment analysis",
+                  "Automated scoring system with detailed feedback reports",
+                  "Built responsive UI with React for seamless interview experience"
+              ],
+              "url": "https://github.com/VISHU1999",
+              "demoUrl": ""
+          },
+          {
+              "title": "ICD-10 Code Search Engine",
+              "category": "Healthcare AI Solution",
+              "description": "Developed an advanced search engine for ICD-10 medical codes using natural language processing and semantic search, improving healthcare data accuracy and efficiency.",
+              "image": "icd-search.png",
+              "techStack": ["Python", "Django", "Elasticsearch", "NLP", "React", "PostgreSQL"],
+              "highlights": [
+                  "Semantic search with 95%+ accuracy for medical code matching",
+                  "NLP-powered query understanding for natural language searches",
+                  "Sub-100ms response times with Elasticsearch optimization",
+                  "Comprehensive admin dashboard for code management"
+              ],
+              "url": "https://github.com/VISHU1999",
+              "demoUrl": ""
+          },
+          {
+              "title": "Facebook Comment Watcher Agent",
+              "category": "Social Media Analytics",
+              "description": "Intelligent agent system that monitors Facebook pages, analyzes comments using AI, provides sentiment analysis, and automates engagement responses.",
+              "image": "facebook.png",
+              "techStack": ["Python", "FastAPI", "Facebook Graph API", "AI Agents", "Redis", "MongoDB"],
+              "highlights": [
+                  "Real-time comment monitoring across multiple pages",
+                  "AI-powered sentiment analysis and engagement metrics",
+                  "Automated response generation for common queries",
+                  "Comprehensive analytics dashboard with insights"
+              ],
+              "url": "https://github.com/VISHU1999/facebook_page_comment_watcher_agent",
+              "demoUrl": ""
+          },
+          {
+              "title": "AIMS - Centralized Inventory Management",
+              "category": "Enterprise SaaS Platform",
+              "description": "Led development of enterprise inventory management system at Guardant Health, improving operational efficiency and providing real-time insights.",
+              "image": "aims.png",
+              "techStack": ["Python", "Django", "Kafka", "PostgreSQL", "Next.js", "AWS"],
+              "highlights": [
+                  "40% improvement in operational efficiency",
+                  "Real-time inventory tracking with Kafka event streams",
+                  "Highly configurable system adapting to client needs",
+                  "85%+ test coverage with comprehensive test suites"
+              ],
+              "url": "https://guardanthealth.com",
+              "demoUrl": ""
+          },
+          {
+              "title": "FastAPI + Docker + PostgreSQL CRUD",
+              "category": "Backend Architecture",
+              "description": "Production-ready FastAPI application with Docker containerization, demonstrating modern backend best practices and CI/CD integration.",
+              "image": "FastAPI-docker.png",
+              "techStack": ["Python", "FastAPI", "Docker", "PostgreSQL", "Pytest"],
+              "highlights": [
+                  "Clean architecture with dependency injection",
+                  "Multi-stage Docker build for optimization",
+                  "Comprehensive API documentation with OpenAPI",
+                  "90%+ test coverage with pytest"
+              ],
+              "url": "https://github.com/VISHU1999/Hospital_bulk_upload",
+              "demoUrl": ""
+          },
+          {
+              "title": "Django REST Framework + Swagger",
+              "category": "API Development",
+              "description": "Showcase of DRF best practices with automatic API documentation generation using Swagger/OpenAPI integration.",
+              "image": "04.png",
+              "techStack": ["Python", "Django", "DRF", "Swagger", "Docker"],
+              "highlights": [
+                  "RESTful API design following industry standards",
+                  "Interactive API documentation with Swagger UI",
+                  "JWT authentication and permission management",
+                  "Dockerized for easy deployment"
+              ],
+              "url": "https://github.com/VISHU1999/DRF-with-swagger-example",
+              "demoUrl": ""
+          },
+          {
+              "title": "Django + PostgreSQL + Redis Docker Stack",
+              "category": "Full Stack Application",
+              "description": "Multi-container Django application demonstrating microservices architecture with caching layer and database optimization.",
+              "image": "02.jpg",
+              "techStack": ["Python", "Django", "PostgreSQL", "Redis", "Docker Compose"],
+              "highlights": [
+                  "Multi-stage Docker build reducing image size by 60%",
+                  "Redis caching improving response times by 70%",
+                  "Database query optimization with ORM best practices",
+                  "Production-ready with health checks and monitoring"
+              ],
+              "url": "https://github.com/VISHU1999/django-postgres-with-docker-",
+              "demoUrl": ""
+          }
+      ]
+  }
+}

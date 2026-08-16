@@ -117,7 +117,7 @@ const Portfolio = ({ data }) => {
 
   return (
     <section id="portfolio">
-      <Fade bottom duration={800}>
+      <Fade bottom duration={300}>
         <div className="portfolio-container">
           <h1 className="portfolio-header">Check Out Some of My Works</h1>
           <div className="portfolio-grid">

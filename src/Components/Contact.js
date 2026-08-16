@@ -86,7 +86,7 @@ const Contact = ({ data }) => {
   return (
     <section id="contact" className="contact-section">
       <ToastContainer position="top-right" autoClose={2500} />
-      <Fade bottom duration={1000}>
+      <Fade bottom duration={200}>
         <div className="contact-header">
           <h2>Contact</h2>
           <p className="lead">{message}</p>
@@ -94,7 +94,7 @@ const Contact = ({ data }) => {
       </Fade>
 
       <div className="contact-grid">
-        <Slide left duration={900}>
+        <Slide left duration={400}>
           <div className="contact-card">
             <h3>Contact Info</h3>
 
@@ -132,7 +132,7 @@ const Contact = ({ data }) => {
           </div>
         </Slide>
 
-        <Slide right duration={900}>
+        <Slide right duration={400}>
           <div className="contact-form-card">
             <h3>Send a Message</h3>
 

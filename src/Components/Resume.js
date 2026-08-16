@@ -92,7 +92,7 @@ const Resume = ({ data }) => {
 
   return (
     <section id="resume">
-      <Slide left duration={1300}>
+      <Slide left duration={400} fraction={0.1}>
         <div className="row work">
           <div className="three columns header-col">
             <h1><span>Work</span></h1>
@@ -101,7 +101,7 @@ const Resume = ({ data }) => {
         </div>
       </Slide>
 
-      <Slide left duration={1300}>
+      <Slide left duration={400} fraction={0.1}>
         <div className="row education">
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
@@ -114,7 +114,7 @@ const Resume = ({ data }) => {
         </div>
       </Slide>
 
-      <Slide left duration={1300}>
+      <Slide left duration={400} fraction={0.1}>
         <div className="row work">
           <div className="three columns header-col">
             <h1><span>Certifications</span></h1>
@@ -123,7 +123,7 @@ const Resume = ({ data }) => {
         </div>
       </Slide>
 
-      <Slide left duration={1300}>
+      <Slide left duration={400} fraction={0.1}>
         <div className="row skill">
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>

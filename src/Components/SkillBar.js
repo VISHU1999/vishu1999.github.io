@@ -10,10 +10,10 @@ const SkillBar = ({ skill, index, color }) => {
         if (entries[0].isIntersecting) {
           setTimeout(() => {
             setIsVisible(true);
-          }, index * 100);
+          }, index * 30);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: '50px' }
     );
 
     if (barRef.current) {
